@@ -3,6 +3,9 @@ Names: Jakira Williams and Keiser Dallas
 Date: 2/18/22
 Section: 450-001
 Assignment: Project 2
+        This is our attempt to execute the Dijkstra's Algorithm and Bellman Ford on a set of given nodes in Python.
+        The program can be ran through terminal w/ the .csv file as the command-line arguments. 
+        If you replace 'sys.argv[2]' w/ <file_name>.csv in the main, then you can execute the program in IDLE. 
 '''
 
 

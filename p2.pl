@@ -3,7 +3,7 @@ Name(s): Keiser Dallas
 Date: 2/8/22
 Course Number and Section: 330-001
 Quarter: Winter 2022
-Project #: 2
+Project # 2: This is a Prolog program that can apply vector equations to one or multiple 3D coordinates, which are provided by the user. 
 */
 
 /* 1. dist/3, where the first two arguments are 3D coordinates and the third argument is

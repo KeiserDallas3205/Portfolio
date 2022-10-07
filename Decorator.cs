@@ -1,7 +1,7 @@
 ﻿/* Name: Keiser Dallas
  * Class: CSC 403-002
  * Date: 10/06/2022
- * Desc: This is an example of a decorator pattern being used a simple car class.
+ * Desc: This is a C# example of a decorator pattern being used a simple car class.
  * The program dynamically expands object functionalities without making changes
  * to the abstract class. After instantiation, the regular car is given additional
  * features not listed in the abstract car class. 

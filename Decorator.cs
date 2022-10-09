@@ -44,13 +44,15 @@ namespace DecoratorPatternExample
 
         public CarCustomizer(ICar newCar)
         {
+            // Save the current car's info into a car that can be customized
             car = newCar;
 
         }
 
-        // Create a car description
+        // Update the car's description
         public virtual string getCarModel()
         {
+            // Return the customized car's description
             return (car.getCarModel());
         }
 

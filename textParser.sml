@@ -10,12 +10,12 @@ Write an ML function named parse : string -> int list that inputs the name of a 
 
 For example, if the text file is named input.txt and contains:
      d3%~19^fgh54 78nm,.j
-     1.2k~789bv
+     1.2k~78bv
 Then your function should work as follows:
      - parse("input.txt");
-     val it = [3,~19,54,78,1,2,~789] : int list
+     val it = [3,~19,54,78,1,2,~78] : int list
 	 
-
+Note: This parser only handles (+/-)integers up to the double digits. 
 *)
 
 

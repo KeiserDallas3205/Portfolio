@@ -3,10 +3,12 @@ This is a personal portfolio displaying a few programs and projects I've worked 
 
 There a various languages used:
      Python
-     Java 
      SML
      Prolog
+     C#
 
 The topics include: 
-
+     Vector Equations 
+     Routing Algorithms 
+     Text Parsing 
      

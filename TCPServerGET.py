@@ -3,6 +3,9 @@ Name: Keiser Dallas
 Date: 12/16/2021
 CSC 450-001
 Winter 2022
+Desc: This program establishes a TCP connection on the server side that receives a GET request,
+      processes it, and sends the status code back to the client. The program waits indefinitely
+      on port 12000 and listens for messages. 
 
 """
 
@@ -15,8 +18,6 @@ import requests
 
 
 
-
-
 # Create a socket
 server_socket = socket(AF_INET, SOCK_STREAM)
 
@@ -25,8 +26,6 @@ server_socket.bind(('',12000))
 
 # Listen for incoming messages 
 server_socket.listen(1)
-
-
 
 
 
@@ -50,7 +49,8 @@ while(True):
     print("HTTP response message:\n {}".format(status))
 
     # Send the status code back to the client 
-    connection_socket.send(status.encode()) # Sends status code back to client
+    connection_socket.send(status.encode()) 
     
-    connection_socket.close() # Close the connection
+    # Clean up the TCP connection
+    connection_socket.close() 
     

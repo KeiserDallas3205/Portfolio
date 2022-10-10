@@ -1,4 +1,12 @@
 /*
+Name: Keiser Dallas
+Date: 10/10/2022
+Desc: These are examples of some complex queries using SQL.
+*/
+
+
+
+/*
  Query 2 - Make a list of all project numbers for projects that involve an employee whose last name is ‘Smith’, either as a
 	worker or as a manager of the department that controls the project 
 

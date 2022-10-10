@@ -1,5 +1,9 @@
 
-/* These are simple queries thatc an be implemented in SQL */
+/*
+Name: Keiser Dallas
+Date: 10/10/2022
+Desc: These are examples of simple SQL queries.
+*/
 
 
 /*Query 0. Retrieve birth date and address of the employee(s) whose name is ‘John B. Smith’.*/

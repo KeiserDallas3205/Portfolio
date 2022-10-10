@@ -1,3 +1,11 @@
+"""
+Name: Keiser Dallas
+Date: 10/10/2022
+Desc: This program is an example of how to establish the server side of a TCP connection.
+      The server will run indefinitely, receive messages, and send a slightly altered message
+      back to the client side. 
+"""
+
 from socket import * 
 import sys
 

@@ -4,14 +4,16 @@ This is a personal portfolio displaying a few programs and projects I've worked 
 There a various languages used:
      Python,
      SML,
-     Prolog, and
-     C#
+     Prolog, 
+     SQL,
+     and C#
 
 The topics include: 
      Vector Equations, 
      Routing Algorithms, 
-     Text Parsing, and
+     Text Parsing,
      TCP Connections
-          (GET requests)
+          (GET requests), and 
+     Database(queries, triggers,and actions)
      
      

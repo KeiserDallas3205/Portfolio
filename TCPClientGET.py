@@ -3,6 +3,10 @@ Name: Keiser Dallas
 Date: 12/16/2021
 CSC 450-001
 Winter 2022
+Desc: This program established a client TCP connection that sends a GET request to a desired
+      server, and receives a status back from the server. The program needs to be ran through 
+      the terminal with the <server ip> <GET request> <server port #> as command line arguments
+      in that order.
 """
 
 # Import socket library for establishing connection

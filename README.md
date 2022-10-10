@@ -11,4 +11,7 @@ The topics include:
      Vector Equations 
      Routing Algorithms 
      Text Parsing 
+     TCP Connections
+          GET requests
+     
      

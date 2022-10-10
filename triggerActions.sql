@@ -1,4 +1,8 @@
-/* 7-3: Triggers and Actions */
+/*
+Name: Keiser Dallas
+Date: 10/10/2022
+Desc: These are some examples of triggers and actions in SQL.
+*/
 
 
 /* 1. Write a trigger to update the salary of an employee with an average salary of the department where

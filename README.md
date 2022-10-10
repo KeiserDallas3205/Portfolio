@@ -14,6 +14,6 @@ The topics include:
      Text Parsing,
      TCP Connections
           (GET requests), and 
-     Database(queries, triggers,and actions)
+     Database (queries, triggers,and actions)
      
      

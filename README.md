@@ -12,7 +12,8 @@ This is a personal portfolio displaying a few programs and projects I've worked 
      Routing Algorithms, 
      Text Parsing,
      TCP Connections
-          (GET requests), and 
-     Database (queries, triggers,and actions)
+          (GET requests), 
+     Database (queries, triggers,and actions),
+     and Computer Graphics
      
      

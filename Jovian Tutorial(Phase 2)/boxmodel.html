@@ -1,0 +1,44 @@
+<!-- Explains the Box Model of HTML-->
+
+<html>
+
+<head>
+    <title>CSS Box Model</title>
+
+    <style>
+        body
+        {
+            padding: 0;
+            margin: 0;
+        }
+
+        .box-one
+        {
+            background-color: aqua;
+            height: 80px;
+            /* Space around the content(words) within the box */
+            padding: 20px;
+            border: 1px solid blue;
+            /* Space around the box itself */
+            margin: 20px;
+
+            /* NOTE: You can customize the padding/border/margin in each direction */
+        }
+
+        .box-two
+        {
+            background-color: beige;
+            height: 60px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box-one">First Box</div>
+
+    <div class="box-two">Second Box</div>
+</body>
+
+</html>

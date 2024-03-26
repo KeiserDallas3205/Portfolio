@@ -1,0 +1,188 @@
+<!-- 
+    Name: Keiser Dallas
+    Date: 1/17/2024    
+    
+    Project Parameters
+        1. A navbar at the top showing the Jovian logo
+        2. A header section displaying a picture and some relevant info
+        3. A list of job job openings
+            a. Job designation
+            b. Location
+            c. Salary details
+            d. Posted date
+                - All this information will be shown in a tabular format
+        4. A footer at the bottom of the web page w/ important links
+        5. An application form below the jobs table where a user can submit an application
+            a. First Name
+            b. Last Name
+            c. Email
+            d. Applied Job
+            e. Phone Number
+            f. Resume 
+            g. Cover Letter
+        6. Improve the aesthetics of the page using appropriate
+            a. Fonts
+            b. Font sizes 
+            c. Colors
+   -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>
+        Jovian Tutorial
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div id="navbar">
+        <img id="logo" alt="Jovian Logo"
+            src="https://bookface-images.s3.amazonaws.com/logos/9c630503bfaf09e017d40c97dae09e6521a73c2d.png">
+    </div>
+    <img id="banner" src="banner.jpg" alt="Banner" height="240" width="800">
+    <h1>About Jovian</h1>
+
+    <div id="about-sec">
+        <div id="desc">
+            <p style="margin-top: 0;">
+                At Jovian, we're on a mission to build the world's most highly
+                reputed technical university, and we're building completely online.
+                We offer several beginner friendly courses that are taken by 300,000+
+                registered users.
+            </p>
+            <p>
+                We also offer 2 industry-focused bootcamps:
+            <ol>
+                <li>
+                    <a href="https://jovian.com/learn/sql-and-business-intelligence" target="_blank">Jovian SQL and
+                        Business
+                        Intelligence</a>
+                </li>
+                <li>
+                    <a href="https://jovian.com/learn/web-development-with-html-and-css" target="_blank">Jovian Web
+                        Developement
+                        with HTML &
+                        CSS</a>
+                </li>
+            </ol>
+            </p>
+        </div>
+        <div id="team">
+            <img id="team-image" src="team.jpg" alt="Team" height="200">
+        </div>
+    </div>
+
+    <h2>Job Opportunities</h2>
+
+    <div id="jobs">
+        <table id="jobs-table">
+            <tr class="jobs-header-row">
+                <th>Job Title</th>
+                <th>Location</th>
+                <th>Salary</th>
+                <th>Date Posted</th>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Frontend Developer</td>
+                <td>Shreveport, LA</td>
+                <td>$65,000</td>
+                <td>Jan 1, 2024</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Data Scientist</td>
+                <td>Houston, TX</td>
+                <td>$75,000</td>
+                <td>Jan 1, 2024</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Backend Developer</td>
+                <td>Tampa, FL</td>
+                <td>$90,000</td>
+                <td>Jan 1, 2024</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Systems Analyst</td>
+                <td>St. Louis, MS</td>
+                <td>$100,000</td>
+                <td>Jan 23, 2024</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="application">
+        <h2>Submit Your Application</h2>
+
+        <form id="application-form" action="https://formbold.com/s/3djy5" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="Full Name" required placeholder="John Smith">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" required placeholder="jsmith@example.com">
+            </div>
+            <div class="form-group">
+                <label for="phone-number">Phone Number</label><br>
+                <input type="number" id="phone-number" name="phone number" required placeholder="+11234567890">
+            </div>
+            <div class="form-group">
+                <label for="birth-date">Date of Birth</label><br>
+                <input type="date" id="birth-date" name="DOB" required>
+            </div>
+            <div class="form-group">
+                <label for="position">Position Applied for</label><br>
+                <select id="position" name="Position Applied" required>
+                    <option value="">Select position</option>
+                    <option value="Frontend Developer">Frontend Developer</option>
+                    <option value="Backend Developer">Backend Developer</option>
+                    <option value="Data Scientist">Data Scientist</option>
+                    <option value="Systems Analyst">Systems Analyst</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="resume">Upload Resume</label><br>
+                <input type="file" id="resume" name="resume" accepted=".pdf,.docx,.doc"required>
+            </div>
+            <div class="form-group">
+                <label for="cover-letter">Upload Cover Letter</label><br>
+                <input type="file" id="cover-letter" name="cover letter" accepted=".pdf,.doc,.docx">
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the terms and conditions</label>
+             </div>
+             <div class="form-group">
+                <input type="submit" value="Submit Application">
+             </div>
+
+
+        </form>
+    </div>
+
+    <div id="footer">
+        <ul id="footer-links">
+            <li>
+                <a href="https://jovian.com/learn" target="_blank">Courses</a>
+            </li>
+            <li>
+                <a href="https://jovian.com/learn" target="_blank">Programs</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/@jovianhq" target="_blank">Youtube</a>
+            </li>
+        </ul>
+        <span class="copyright">© 2023 Jovian</span>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,215 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto+Condensed',sans-serif;
+    font-size: 16px;
+    color: #444444;
+    
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #222222;
+    
+}
+
+
+h1 
+{
+    text-align: center;
+    color: black;
+    font-size: 2.5rem;
+    
+}
+
+h2
+{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+}
+
+h3{font-size: 1.75rem;}
+h4{font-size: 1.5rem;}
+h5{font-size: 1.25rem;}
+h6{font-size: 1rem}
+
+#navbar
+{
+    padding: 8px;
+    margin: 0;
+}
+
+#logo
+{
+    height: 32px;
+    
+}
+
+#banner
+{
+    /* Fixes the stretching of images*/
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Makes the company desc and team image side-by-side*/
+#about-sec
+{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-right: 8px;
+}
+
+#desc
+{
+    width: 50%;
+    padding: 0 10px;
+    font-size: 1.25rem;
+}
+
+a
+{
+    text-decoration: none;
+    color: #3B82F6;
+}
+
+/* How a link appears when hovered over w/ cursor */
+a:hover, a:focus
+{
+    color: #1D4ED8;
+}
+
+#team
+{
+    width: 50%;
+}
+
+#team-image
+{
+    border-radius: 5px;
+    object-fit: cover;
+    width: 100%;
+
+}
+
+#jobs
+{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+}
+
+#jobs-table
+{
+    
+    width: 100%;
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+
+.jobs-header-row th
+{
+    border: 1px solid grey;
+    padding: 8px;
+    text-align: left;
+    background-color: #DBEAFE;
+    color: #222222;
+   
+}
+
+
+.jobs-data-row td
+{
+    border-right: 1px solid grey;
+    padding: 8px;
+  
+}
+
+#jobs-table tr:nth-child(odd)
+{
+    background-color: #EFF6FF;
+}
+
+#application
+{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.form-group
+{
+    margin: 16px;
+}
+
+.form-group input[type="checkbox"]
+{
+    width: 16px;
+    height: 16px;
+}
+
+.form-group input[type="submit"]
+{
+    background-color: #3B82F6;
+    color: white;
+    font-weight: 500;
+    padding: 16px;
+    cursor: pointer;
+}
+
+#application-form label
+{
+    font-weight: 600;
+}
+
+#application-form input, select
+{
+    padding: 8px;
+    font-size: 1.25rem;
+    margin-top: 4px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+
+#footer
+{
+    background-color: #F8FAFC;
+    padding: 8px;
+    margin-top: 32px;
+    text-align: center;
+}
+
+#footer-links
+{
+    list-style: none;
+}
+
+/* Accessing individual list items */
+#footer-links li
+{
+    display: inline;
+    margin: 0 16px;
+}
+
+.copyright
+{
+    color: #71717A;
+}
+
+/* Methods to styles
+    
+    1. Selectors (<tag>)
+    2. Tag IDs (#<ID>)
+        a. Any elements should never share the same ID
+    3. Classes (.<class name>)
+    
+    NOTE: CSS style sheets are interpreted, so they change styles based on
+        order they are typed
+*/

@@ -1,0 +1,128 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1 
+{
+    text-align: center;
+    color: black;
+}
+
+h2
+{
+    text-align: center;
+    color: black;
+}
+
+#navbar
+{
+    padding: 8px;
+    margin: 0;
+}
+
+#logo
+{
+    height: 32px;
+    
+}
+
+#banner
+{
+    /* Fixes the stretching of images*/
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Makes the company desc and team image side-by-side*/
+#about-sec
+{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-right: 8px;
+}
+
+#desc
+{
+    width: 50%;
+    padding: 0 10px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+#team
+{
+    width: 50%;
+}
+
+#team-image
+{
+    border-radius: 5px;
+    object-fit: cover;
+    width: 100%;
+
+}
+
+#jobs
+{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+}
+
+.job-role
+{
+    margin-bottom: 4px;
+    margin-top: 0px;
+}
+
+.apply
+{
+    float: right;
+}
+
+
+.location
+{
+    color: gray;
+    margin-bottom: 16px;
+}
+
+#footer
+{
+    background-color: ghostwhite;
+    padding: 8px;
+    margin-top: 32px;
+    text-align: center;
+}
+
+#footer-links
+{
+    list-style: none;
+}
+
+/* Accessing individual list items */
+#footer-links li
+{
+    display: inline;
+    margin: 0 16px;
+}
+
+.copyright
+{
+    color: grey;
+}
+
+/* Methods to styles
+    
+    1. Selectors (<tag>)
+    2. Tag IDs (#<ID>)
+        a. Any elements should never share the same ID
+    3. Classes (.<class name>)*/
